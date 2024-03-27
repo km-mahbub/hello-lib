@@ -1,3 +1,3 @@
-# `@dipto/hello-lib-android-arm-eabi`
+# `@dipto2077/hello-lib-android-arm-eabi`
 
-This is the **armv7-linux-androideabi** binary for `@dipto/hello-lib`
+This is the **armv7-linux-androideabi** binary for `@dipto2077/hello-lib`

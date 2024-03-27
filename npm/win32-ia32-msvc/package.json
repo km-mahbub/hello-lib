@@ -1,5 +1,5 @@
 {
-  "name": "@dipto/hello-lib-win32-ia32-msvc",
+  "name": "@dipto2077/hello-lib-win32-ia32-msvc",
   "version": "1.0.3",
   "os": [
     "win32"

@@ -1,3 +1,3 @@
-# `@dipto/hello-lib-linux-x64-gnu`
+# `@dipto2077/hello-lib-linux-x64-gnu`
 
-This is the **x86_64-unknown-linux-gnu** binary for `@dipto/hello-lib`
+This is the **x86_64-unknown-linux-gnu** binary for `@dipto2077/hello-lib`

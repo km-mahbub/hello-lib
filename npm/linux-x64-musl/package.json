@@ -1,5 +1,5 @@
 {
-  "name": "@dipto/hello-lib-linux-x64-musl",
+  "name": "@dipto2077/hello-lib-linux-x64-musl",
   "version": "1.0.3",
   "os": [
     "linux"

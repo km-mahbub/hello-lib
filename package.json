@@ -1,5 +1,5 @@
 {
-  "name": "@dipto/hello-lib",
+  "name": "@dipto2077/hello-lib",
   "version": "1.0.3",
   "description": "Hello world lib using napi-rs",
   "main": "index.js",

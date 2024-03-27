@@ -1,3 +1,3 @@
-# `@dipto/hello-lib-freebsd-x64`
+# `@dipto2077/hello-lib-freebsd-x64`
 
-This is the **x86_64-unknown-freebsd** binary for `@dipto/hello-lib`
+This is the **x86_64-unknown-freebsd** binary for `@dipto2077/hello-lib`
