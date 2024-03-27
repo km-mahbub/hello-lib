@@ -37,7 +37,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./hello-lib.android-arm64.node')
           } else {
-            nativeBinding = require('@dipto/hello-lib-android-arm64')
+            nativeBinding = require('@dipto2077/hello-lib-android-arm64')
           }
         } catch (e) {
           loadError = e
@@ -49,7 +49,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./hello-lib.android-arm-eabi.node')
           } else {
-            nativeBinding = require('@dipto/hello-lib-android-arm-eabi')
+            nativeBinding = require('@dipto2077/hello-lib-android-arm-eabi')
           }
         } catch (e) {
           loadError = e
@@ -67,7 +67,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./hello-lib.win32-x64-msvc.node')
           } else {
-            nativeBinding = require('@dipto/hello-lib-win32-x64-msvc')
+            nativeBinding = require('@dipto2077/hello-lib-win32-x64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -79,7 +79,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./hello-lib.win32-ia32-msvc.node')
           } else {
-            nativeBinding = require('@dipto/hello-lib-win32-ia32-msvc')
+            nativeBinding = require('@dipto2077/hello-lib-win32-ia32-msvc')
           }
         } catch (e) {
           loadError = e
@@ -91,7 +91,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./hello-lib.win32-arm64-msvc.node')
           } else {
-            nativeBinding = require('@dipto/hello-lib-win32-arm64-msvc')
+            nativeBinding = require('@dipto2077/hello-lib-win32-arm64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -107,7 +107,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require('./hello-lib.darwin-universal.node')
       } else {
-        nativeBinding = require('@dipto/hello-lib-darwin-universal')
+        nativeBinding = require('@dipto2077/hello-lib-darwin-universal')
       }
       break
     } catch {}
@@ -118,7 +118,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./hello-lib.darwin-x64.node')
           } else {
-            nativeBinding = require('@dipto/hello-lib-darwin-x64')
+            nativeBinding = require('@dipto2077/hello-lib-darwin-x64')
           }
         } catch (e) {
           loadError = e
@@ -130,7 +130,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./hello-lib.darwin-arm64.node')
           } else {
-            nativeBinding = require('@dipto/hello-lib-darwin-arm64')
+            nativeBinding = require('@dipto2077/hello-lib-darwin-arm64')
           }
         } catch (e) {
           loadError = e
@@ -149,7 +149,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require('./hello-lib.freebsd-x64.node')
       } else {
-        nativeBinding = require('@dipto/hello-lib-freebsd-x64')
+        nativeBinding = require('@dipto2077/hello-lib-freebsd-x64')
       }
     } catch (e) {
       loadError = e
@@ -164,7 +164,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./hello-lib.linux-x64-musl.node')
             } else {
-              nativeBinding = require('@dipto/hello-lib-linux-x64-musl')
+              nativeBinding = require('@dipto2077/hello-lib-linux-x64-musl')
             }
           } catch (e) {
             loadError = e
@@ -175,7 +175,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./hello-lib.linux-x64-gnu.node')
             } else {
-              nativeBinding = require('@dipto/hello-lib-linux-x64-gnu')
+              nativeBinding = require('@dipto2077/hello-lib-linux-x64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -189,7 +189,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./hello-lib.linux-arm64-musl.node')
             } else {
-              nativeBinding = require('@dipto/hello-lib-linux-arm64-musl')
+              nativeBinding = require('@dipto2077/hello-lib-linux-arm64-musl')
             }
           } catch (e) {
             loadError = e
@@ -200,7 +200,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./hello-lib.linux-arm64-gnu.node')
             } else {
-              nativeBinding = require('@dipto/hello-lib-linux-arm64-gnu')
+              nativeBinding = require('@dipto2077/hello-lib-linux-arm64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -213,7 +213,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./hello-lib.linux-arm-gnueabihf.node')
           } else {
-            nativeBinding = require('@dipto/hello-lib-linux-arm-gnueabihf')
+            nativeBinding = require('@dipto2077/hello-lib-linux-arm-gnueabihf')
           }
         } catch (e) {
           loadError = e

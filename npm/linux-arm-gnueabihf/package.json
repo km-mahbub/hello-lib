@@ -1,6 +1,6 @@
 {
   "name": "@dipto2077/hello-lib-linux-arm-gnueabihf",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "os": [
     "linux"
   ],
