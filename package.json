@@ -1,6 +1,6 @@
 {
   "name": "@dipto/hello-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Hello world lib using napi-rs",
   "main": "index.js",
   "repository": "https://github.com/km-mahbub/hello-lib",
