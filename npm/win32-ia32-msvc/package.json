@@ -1,6 +1,6 @@
 {
   "name": "@dipto2077/hello-lib-win32-ia32-msvc",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "os": [
     "win32"
   ],
