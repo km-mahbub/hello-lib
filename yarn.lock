@@ -84,9 +84,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dipto/hello-lib@workspace:.":
+"@dipto2077/hello-lib@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@dipto/hello-lib@workspace:."
+  resolution: "@dipto2077/hello-lib@workspace:."
   dependencies:
     "@napi-rs/cli": "npm:^2.16.4"
     "@swc-node/register": "npm:^1.6.8"
