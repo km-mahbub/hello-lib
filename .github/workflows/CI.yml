@@ -74,7 +74,7 @@ jobs:
               sudo apt-get update
               sudo apt-get install gcc-arm-linux-gnueabihf -y
               sudo apt-get install perl -y
-              sudo apt-get install make -y
+              sudo apt-get install libssl-dev -y
             build: |
               yarn build --target armv7-unknown-linux-gnueabihf
               arm-linux-gnueabihf-strip *.node
