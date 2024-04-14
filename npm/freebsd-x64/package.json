@@ -1,6 +1,6 @@
 {
   "name": "@dipto2077/hello-lib-freebsd-x64",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "os": [
     "freebsd"
   ],
