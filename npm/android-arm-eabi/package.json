@@ -1,6 +1,7 @@
 {
   "name": "@dipto2077/hello-lib-android-arm-eabi",
   "version": "1.0.10",
+  "version": "1.0.9",
   "os": [
     "android"
   ],

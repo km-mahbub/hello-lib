@@ -107,6 +107,8 @@ jobs:
         with:
           node-version: 18
           cache: yarn
+      - name: Install Make
+        run: apt install make
       - name: Install
         uses: dtolnay/rust-toolchain@stable
         if: ${{ !matrix.settings.docker }}
@@ -260,6 +262,8 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
           cache: yarn
+      - name: Install Make
+        run: apt install make
       - name: Install dependencies
         run: yarn install
       - name: Download artifacts

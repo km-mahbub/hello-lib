@@ -1,6 +1,7 @@
 {
   "name": "@dipto2077/hello-lib-darwin-x64",
   "version": "1.0.10",
+  "version": "1.0.9",
   "os": [
     "darwin"
   ],
