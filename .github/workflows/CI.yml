@@ -73,7 +73,7 @@ jobs:
             setup: |
               sudo apt-get update
               sudo apt-get install gcc-arm-linux-gnueabihf -y
-              sudo apt-get install perl
+              sudo apt-get install perl -y
             build: |
               yarn build --target armv7-unknown-linux-gnueabihf
               arm-linux-gnueabihf-strip *.node
