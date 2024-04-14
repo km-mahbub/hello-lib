@@ -260,6 +260,8 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
           cache: yarn
+      - name: Install Make
+        run: apt install make
       - name: Install dependencies
         run: yarn install
       - name: Download artifacts
