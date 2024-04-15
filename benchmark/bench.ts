@@ -1,21 +1,25 @@
 import b from 'benny'
 
-import { plus100 } from '../index'
+import { getData } from '../index'
 
-function add(a: number) {
-  return a + 100
+async function getDataJs(url: string) {
+  const response = await fetch(url)
+
+  return response
 }
+
+const url = 'https://catfact.ninja/fact'
 
 async function run() {
   await b.suite(
-    'Add 100',
+    'Get Data',
 
-    b.add('Native a + 100', () => {
-      plus100(10)
+    b.add('Native getData', async () => {
+      await getData(url)
     }),
 
-    b.add('JavaScript a + 100', () => {
-      add(10)
+    b.add('JavaScript getData', async () => {
+      await getDataJs(url)
     }),
 
     b.cycle(),
